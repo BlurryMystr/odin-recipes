@@ -7,7 +7,19 @@ body {
 }
 
 .recipe-list li {
+    box-sizing: border-box;
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 4px;
+    width: fit-content;
+}
+
+.recipe-list a:link {
+    text-decoration: none;
+    color: darkred;
+}
+
+.recipe-list a:hover {
+    text-decoration: underline;
+    color: darkblue;
 }
