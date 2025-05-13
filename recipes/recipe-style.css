@@ -6,23 +6,8 @@ h1, h2, h4 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-li {
-    font-size: 16px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 2px
-}
-
-.recipe-steps li {
-    margin: 12px;
-}
-
-.recipe-desc p {
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.recipe-steps li:hover {
-    background-color: greenyellow   ;
+h4 {
+    margin-bottom: -8px;
 }
 
 .recipe-img {
@@ -30,4 +15,32 @@ li {
     max-height: 550px;
     width: 100%;
     height: auto;
+}
+
+.recipe-desc p {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li {
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 8px;
+}
+
+.recipe-steps li {
+    margin: 18px;
+    transition: background-color 200ms;
+}
+
+.recipe-steps li:hover {
+    background-color: yellow;
+}
+
+.home a  {
+    text-decoration: none;
+}
+
+.home a:hover {
+    text-decoration: underline;
 }
